@@ -1,0 +1,12 @@
+{
+  "name": "bookmark2checklist",
+  "description": "Show bookmark tree as markdown check list",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "bookmarks"
+  ]
+}

@@ -1,0 +1,3 @@
+/dist/*
+!/dist/manifest.json
+!/dist/popup.html

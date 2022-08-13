@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "preact": "https://esm.sh/preact@10.10.2",
+    "preact/hooks": "https://esm.sh/preact@10.10.2/hooks",
+    "webextension-polyfill": "https://esm.sh/webextension-polyfill@0.9.0"
+  }
+}
