@@ -111,7 +111,7 @@ function MarkdownBookmarkTree(nodeId: string) {
   return h("textarea", {
     readonly: true,
     wrap: "off",
-    style: { width: "100%", height: "80vh" },
+    style: { width: "100%", height: "80vh", resize: "none" },
   }, text);
 }
 
