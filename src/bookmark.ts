@@ -105,7 +105,11 @@ function MarkdownBookmarkTree(nodeId: string) {
   const text = items
     .map((node) => {
       const url = node.url ?? "";
-      return `${" ".repeat(node.depth * 2)}- [ ] [${node.name}](${url})`;
+      const prefix = `${" ".repeat(node.depth * 2)}- [ ] `;
+      if (!url) {
+        return `${prefix}${node.name}`;
+      }
+      return `${prefix}[${node.name}](${url})`;
     })
     .join("\n");
   return h("textarea", {
